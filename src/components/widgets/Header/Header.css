@@ -1,0 +1,82 @@
+.main-top {
+  background-color: #fff;
+}
+header {
+  margin-top: 20px;
+}
+.search-box {
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  height: 100%;
+  position: relative;
+}
+.search-box .search-input {
+  padding-right: 40px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display: block;
+}
+.search-box .search-input::-webkit-input-placeholder {
+  color: silver;
+}
+.search-box .search-input::-moz-placeholder {
+  color: silver;
+}
+.search-box .search-input:-ms-input-placeholder {
+  color: silver;
+}
+.search-box .search-input:-moz-placeholder {
+  color: silver;
+}
+.search-box .search-button {
+  position: absolute;
+  top: 0px;
+  right: -4px;
+  z-index: 2;
+  color: silver;
+  left: initial;
+}
+.search-box .search-button:hover {
+  color: #909090;
+}
+
+.signup-link {
+  padding: 0.25rem 0.8rem;
+  margin-right: 0.5rem;
+  margin-top: 4px;
+}
+.login-link {
+  color: #8a8a8a;
+  margin-top: 4px;
+}
+.login-link:hover,
+.login-link:focus {
+  color: #000;
+  text-decoration: none;
+}
+.signup-link i,
+.login-link i {
+  font-size: 1rem;
+}
+
+.menu-top {
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  border-top: 1px solid #ececec;
+  box-shadow: 0 2px 4px -1px silver;
+}
+.menu-top .navbar {
+  padding: 0;
+}
+.menu-top .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
+.menu-top .nav-link.active {
+  color: #000;
+  border-bottom: 3px solid #40cce2;
+}
